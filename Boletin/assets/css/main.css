@@ -1,3 +1,28 @@
-td{
-	border: solid 1px;
+/**
+Azul: #004E98;
+Rojo: #FF4B3E;
+Gris: #E1E6E1;
+**/	
+
+
+body{
+	background: #0575E6;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.content{
+	max-width: 960px;
+	max-height: 500px;
+	height: 100%;
+	width: 100%;
+	background-color: blue;
 }
