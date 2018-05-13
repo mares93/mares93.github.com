@@ -1,0 +1,109 @@
+
+.bar a{
+	color:black;
+}
+
+.brand-logo{
+	width: 5%;
+	margin-left: 5%;
+}
+
+.page-footer{
+	margin-top: 100px;
+}
+
+.margin-top{
+	margin-top: 100px;
+}
+
+.center-align .material-icons{
+	color:red;
+}
+
+.pushpin{
+	width: 100%;
+	z-index: 100;
+}
+
+.slider{
+	margin-top: 60px;
+}
+
+.tabs .tab a{
+	color:grey;
+	font-weight: bold;
+	text-transform: none;
+}
+
+.tabs .indicator {
+	background-color:blue;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	align-content: center;
+	height: 10%;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+	background-color: white;
+	outline: none;
+	color: black;
+}
+
+
+.tabs .tab a.active {
+  background-color: transparent;
+  color: black;
+}
+
+.line-horizont{
+	width: 100vh;
+	height: 5px;
+	background-color: black;
+	opacity: .6;
+}
+
+.b-1{
+	background-image: url(1.jpg);
+}
+
+.comm p{
+	opacity: .8;
+}
+
+.comm h3{
+	opacity: .9;
+}
+.card-panel i{
+	color:blue;
+}
+.card-panel p{
+	text-align: center;
+}
+.card-panel h4{
+	text-align: center;
+}
+.hover:hover{
+	background-color: blue;
+	color: white;
+	    -webkit-transition: width 2s; /* Safari */
+    transition: background-color 2s, color .5s;
+}
+
+.hover:hover p{
+	color:white;
+	opacity: none !important;
+}
+
+.hover:hover i{
+	color: white;
+}
+
+.row{
+	min-height: 280px;
+}
+
+
+.parallax-container {
+      opacity: .5;
+}

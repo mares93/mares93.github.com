@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Materialize-1</title>
+</head>
+<!-- Compiled and minified CSS -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+<body>
+	<section class="bar pushpin">
+		<nav class="navbar navbar-default">
+			<div class="nav-wrapper grey lighten-5">
+				<a href="#!" class="brand-logo"> <img class="responsive-img" src="js/LOGO_NEGRO.png"></a>
+				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="./about.html">About Us</a></li>
+					<li><a href="./services.html">Services</a></li>
+					<li><a href="./contact.html">Contact Us</a></li>
+
+				</ul>
+			</div>
+		</nav>
+
+		<ul class="sidenav" id="mobile-demo">
+			<li><a href="./index.html">Home</a></li>
+			<li><a href="./about.html">About Us</a></li>
+			<li><a href="./services.html">Services</a></li>
+			<li><a href="./contact.html">Contact Us</a></li>
+		</ul>
+	</section>
+
+
+	<div class="slider">
+		<ul class="slides">
+			<li>
+				<img src="background1.jpg"> <!-- random image -->
+				<div class="caption center-align">
+					<h3>Paquito Chinga tu madre</h3>
+					<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+				</div>
+			</li>
+			<li>
+				<img src="background2.jpg"> <!-- random image -->
+				<div class="caption left-align">
+					<h3>Text two</h3>
+					<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+				</div>
+			</li>
+			<li>
+				<img src="background3.jpg"> <!-- random image -->
+				<div class="caption right-align">
+					<h3>Text three</h3>
+					<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+				</div>
+			</li>
+		</ul>
+	</div>
+
+
+	<section>
+		<div class="row margin-top">
+			<div class="col s8 offset-s2">
+				<div class="col s12 m4 center-align"><i class="material-icons medium ">school</i><h3>Lorem</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error maxime dicta magni! Maxime laboriosam magnam sequi qui modi. Laboriosam optio fugit officiis deleniti minima tempora nulla perspiciatis, assumenda, magnam quidem.</p></div>
+				<div class="col s12 m4 center-align"><i class="material-icons medium">school</i><h3>Lorem</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error maxime dicta magni! Maxime laboriosam magnam sequi qui modi. Laboriosam optio fugit officiis deleniti minima tempora nulla perspiciatis, assumenda, magnam quidem.</p></div>
+				<div class="col s12 m4 center-align"><i class="material-icons medium">school</i><h3>Lorem</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error maxime dicta magni! Maxime laboriosam magnam sequi qui modi. Laboriosam optio fugit officiis deleniti minima tempora nulla perspiciatis, assumenda, magnam quidem.</p></div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+	<footer class="page-footer  light-blue darken-4">
+		<div class="container ">
+			<div class="row">
+				<div class="col l6 s12">
+					<h5 class="white-text">Footer Content</h5>
+					<p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+				</div>
+				<div class="col l4 offset-l2 s12">
+					<h5 class="white-text">Contact Us</h5>
+					<ul>
+						<li><p>Tel: 4621234567</p></li>
+						<li><p>e-mail@e-mail.com</p></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				Name Enterprice
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/materialize.js"></script>
+	<script src="js/init.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.slider').slider();
+			$('.sidenav').sidenav();
+			$('.pushpin').pushpin();
+		});
+	</script>
+</body>
+</html>
