@@ -1,0 +1,46 @@
+.margin-top{
+	margin-top: 50px;
+}
+
+.margin-left{
+	margin-left: 50px !important;
+}
+
+i{
+	color: #66bb6a;
+}
+
+.bar a{
+	color:black;
+}
+
+.brand-logo{
+	width: 8%;
+	margin-left: 5%;
+}
+
+
+
+.row{
+	min-height: 280px;
+}
+
+
+.parallax-container {
+      opacity: .5;
+}
+
+
+/*map*/
+
+
+#mapa{
+  width: 100%;
+  min-height: 600px;
+  margin-top: $big-margin-top;
+  z-index: -1;
+  position: relative;
+}
+
+
+/***/

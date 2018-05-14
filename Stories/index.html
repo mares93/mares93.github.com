@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<meta charset="UTF-8">
+	<title>Materialize-1</title>
+</head>
+<!-- Compiled and minified CSS -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+<body>
+	<nav>
+		<div class="nav-wrapper blue-grey darken-4 ">
+			<a href="#!" class="brand-logo"> <img class="responsive-img" src="js/LOGO_NEGRO.png"></a>
+			<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+			<ul class="right hide-on-med-and-down">
+				<li><a href="./index.html">Home</a></li>
+				<li><a href="./about.html">About Us</a></li>
+				<li><a href="./services.html">Services</a></li>
+				<li><a href="./contact.html">Contact Us</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<ul class="sidenav" id="mobile-demo">
+		<li><a href="./index.html">Home</a></li>
+		<li><a href="./about.html">About Us</a></li>
+		<li><a href="./services.html">Services</a></li>
+		<li><a href="./contact.html">Contact Us</a></li>
+	</ul>
+
+	
+
+	<div class="slider">
+		<ul class="slides">
+			<li>
+				<img src="./public/images/1.jpg"> <!-- random image -->
+				<div class="caption center-align">
+					<h3>This is our big Tagline!</h3>
+					<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+				</div>
+			</li>
+			<li>
+				<img src="./public/images/2.jpg"> <!-- random image -->
+				<div class="caption left-align">
+					<h3>Left Aligned Caption</h3>
+					<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+				</div>
+			</li>
+			<li>
+				<img src="./public/images/3.jpg"> <!-- random image -->
+				<div class="caption right-align">
+					<h3>Right Aligned Caption</h3>
+					<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+				</div>
+			</li>
+			<li>
+				<img src="./public/images/4.jpg"> <!-- random image -->
+				<div class="caption center-align">
+					<h3>This is our big Tagline!</h3>
+					<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+				</div>
+			</li>
+		</ul>
+	</div>
+
+
+	<div class="row margin-top">
+		<div class="col s12 grey lighten-3">
+			<div class="col s12 m2 margin-left" "><i class="material-icons medium">check</i><h4>Roadmap Strategy</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, sapiente veniam quibusdam reiciendis voluptatem suscipit?</p></div>
+			<div class="col s12 m2 offset-l1"><i class="material-icons medium">check</i><h4>Blog Writing</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, sapiente veniam quibusdam reiciendis voluptatem suscipit?</p></div>
+			<div class="col s12 m2 offset-l1"><i class="material-icons medium">check</i><h4>Roadmap Strategy</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, sapiente veniam quibusdam reiciendis voluptatem suscipit?</p></div>
+			<div class="col s12 m2 offset-l1"><i class="material-icons medium">check</i><h4>Blog Writing</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, sapiente veniam quibusdam reiciendis voluptatem suscipit?</p></div>
+
+
+		</div>
+	</div>
+
+
+
+
+	<footer class="page-footer grey darken-2">
+		<div class="container ">
+			<div class="row">
+				<div class="col l6 s12">
+					<h5 class="white-text">Footer Content</h5>
+					<p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+				</div>
+				<div class="col l4 offset-l2 s12">
+					<h5 class="white-text">Contact Us</h5>
+					<ul>
+						<li><p>Tel: 4621234567</p></li>
+						<li><p>e-mail@e-mail.com</p></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				Name Enterprice
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/materialize.js"></script>
+	<script src="js/init.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.slider').slider();
+			$('.sidenav').sidenav();
+			$('.pushpin').pushpin();
+			$('.tabs').tabs();
+
+		});
+	</script>
+</body>
+</html>
